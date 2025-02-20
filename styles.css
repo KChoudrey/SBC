@@ -154,79 +154,18 @@ nav ul li a:hover {
   margin-bottom: 10px;
 }
 
-/* Signage Types Section */
-.signage-types {
+/* Portfolio Section */
+.portfolio {
   padding: 80px 0;
   text-align: center;
-  background: #f4f4f4;
 }
 
-.signage-types h2 {
+.portfolio h2 {
   font-size: 2.5rem;
   margin-bottom: 40px;
 }
 
-.types-list {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.type-item {
-  background: #fff;
-  padding: 30px;
-  margin: 15px;
-  border-radius: 10px;
-  width: 30%;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.type-item:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
-
-.type-item h3 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
-
-/* Gallery Section */
 .gallery {
-  padding: 80px 0;
-  text-align: center;
-}
-
-.gallery h2 {
-  font-size: 2.5rem;
-  margin-bottom: 40px;
-}
-
-.gallery-filters {
-  margin-bottom: 20px;
-}
-
-.gallery-filters .filter-btn {
-  background: #ff6f61;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  margin: 5px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.gallery-filters .filter-btn.active {
-  background: #e65a50;
-}
-
-.gallery-filters .filter-btn:hover {
-  background: #e65a50;
-}
-
-.gallery-grid {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -271,6 +210,44 @@ nav ul li a:hover {
 }
 
 .overlay h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Signage Types Section */
+.signage-types {
+  padding: 80px 0;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+.signage-types h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.types-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.type-item {
+  background: #fff;
+  padding: 30px;
+  margin: 15px;
+  border-radius: 10px;
+  width: 30%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.type-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.type-item h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
