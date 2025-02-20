@@ -214,31 +214,31 @@ nav ul li a:hover {
   margin-bottom: 10px;
 }
 
-/* Testimonials Section */
-.testimonials {
-  background: #f9f9f9;
+/* SEO Section */
+.seo {
   padding: 80px 0;
   text-align: center;
+  background: #f4f4f4;
 }
 
-.testimonials h2 {
+.seo h2 {
   font-size: 2.5rem;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
-.testimonial-list {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+.seo-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
 }
 
-.testimonial-item {
-  background: #fff;
-  padding: 30px;
-  margin: 15px;
-  border-radius: 10px;
-  width: 45%;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.seo-content ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.seo-content ul li {
+  margin-bottom: 10px;
 }
 
 /* Contact Section */
