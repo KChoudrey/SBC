@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - SignBoard Pro</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>SignBoard Pro</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About Us</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#signage-types">Signage Types</a></li>
+          <li><a href="gallery.html">Portfolio</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <h2>Our Portfolio</h2>
+      <div class="gallery-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="indoor">Indoor Signage</button>
+        <button class="filter-btn" data-filter="outdoor">Outdoor Signage</button>
+        <button class="filter-btn" data-filter="3d-acrylic">3D Acrylic</button>
+        <button class="filter-btn" data-filter="led">LED Signboards</button>
+        <button class="filter-btn" data-filter="monument">Monument Signs</button>
+        <button class="filter-btn" data-filter="window">Window Graphics</button>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item" data-tag="indoor">
+          <img src="https://via.placeholder.com/400x300" alt="Indoor Signage">
+          <div class="overlay">
+            <h3>Indoor Signage</h3>
+            <p>Reception and wayfinding signs.</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-tag="outdoor">
+          <img src="https://via.placeholder.com/400x300" alt="Outdoor Signage">
+          <div class="overlay">
+            <h3>Outdoor Signage</h3>
+            <p>Building-top and shop front signs.</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-tag="3d-acrylic">
+          <img src="https://via.placeholder.com/400x300" alt="3D Acrylic Signage">
+          <div class="overlay">
+            <h3>3D Acrylic Signage</h3>
+            <p>Modern and sleek designs.</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-tag="led">
+          <img src="https://via.placeholder.com/400x300" alt="LED Signboards">
+          <div class="overlay">
+            <h3>LED Signboards</h3>
+            <p>Energy-efficient and eye-catching.</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-tag="monument">
+          <img src="https://via.placeholder.com/400x300" alt="Monument Signs">
+          <div class="overlay">
+            <h3>Monument Signs</h3>
+            <p>Durable and elegant.</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-tag="window">
+          <img src="https://via.placeholder.com/400x300" alt="Window Graphics">
+          <div class="overlay">
+            <h3>Window Graphics</h3>
+            <p>Custom graphics for windows.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 SignBoard Pro. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
