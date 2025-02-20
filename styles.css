@@ -62,26 +62,11 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-  background: url('https://via.placeholder.com/1200x800') no-repeat center center/cover;
+  background: linear-gradient(135deg, #ff6f61, #ff8c6b);
   color: #fff;
   padding: 150px 0;
   text-align: center;
   position: relative;
-}
-
-.hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.hero .container {
-  position: relative;
-  z-index: 1;
 }
 
 .hero h2 {
@@ -95,17 +80,18 @@ nav ul li a:hover {
 }
 
 .hero .btn {
-  background: #ff6f61;
-  color: #fff;
+  background: #fff;
+  color: #ff6f61;
   padding: 12px 30px;
   text-decoration: none;
   border-radius: 5px;
   font-weight: 600;
-  transition: background 0.3s ease;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 .hero .btn:hover {
-  background: #e65a50;
+  background: #ff6f61;
+  color: #fff;
 }
 
 /* About Section */
